@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* font style */
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+
+header,
+main {
+    margin: 50px 140px;
+}
+
+/* Header Section Style */
+.header-container {
+    /* border: 2px solid rgb(236, 124, 143); */
+    height: 340px;
+    text-align: center;
+    text-shadow: 1px 1px #b12169;
+    background-image: url(../resources/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 150px;
+}
+
+.header-container>h3 {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.header-container>h2 {
+    color: #FFF;
+    font-size: 60px;
+    font-weight: 900;
+}
+
+/* Main Section Style */
+
+/* Offer Container */
+.offer-container {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.discount {
+    color: #F00;
+    font-family: Inter;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.discount-descrip {
+    color: #F00;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.categories {
+    color: #070211;
+    font-family: Inter;
+    font-size: 58px;
+    font-weight: 700;
+}
+/* Welcome to the Party */
+.welcome-container {
+    /* border: 2px solid blue; */
+    color: #FFF;
+    background-image: url(../resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 80px 250px 80px 100px;
+}
+
+.welcome-title {
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 80px;
+    letter-spacing: 7px;
+    margin-bottom: 40px;
+}
+
+button {
+    background: transparent;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 60px;
+    margin-left: 60px;
+}
