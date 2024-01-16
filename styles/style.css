@@ -11,13 +11,14 @@ body {
 
 header,
 main {
-    margin: 50px 140px;
+    margin: 60px 140px;
 }
 
 /* Header Section Style */
 .header-container {
     /* border: 2px solid rgb(236, 124, 143); */
-    height: 340px;
+    height: 330px;
+    border-radius: 16px;
     text-align: center;
     text-shadow: 1px 1px #b12169;
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../resources/Banner\ Image.png);
@@ -47,7 +48,7 @@ main {
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 .discount {
@@ -105,7 +106,7 @@ main {
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.1) 0%, rgba(255, 0, 0, 0) 100%);
     background-repeat: no-repeat;
     background-size: 100%;
-    margin-top: 50px;
+    margin-top: 60px;
     padding-top: 30px;
     text-align: center;
     font-family: Inter;
@@ -131,15 +132,16 @@ main {
     color: #FFF;
     background: #F00;
     border-style: none;
-    margin: 50px 0;
+    margin: 30px 0;
 }
 
 
 /* Coming Soon */
 .coming-soon {
+    /* border: 2px solid saddlebrown; */
     display: flex;
     justify-content: space-between;
-    margin: 50px 0;
+    margin: 60px 0;
     align-items: center;
 }
 
@@ -191,6 +193,7 @@ main {
 }
 
 /* Portfolio Section */
+
 .best-gift {
     color: #F00;
     font-family: Inter;
@@ -204,6 +207,7 @@ main {
     font-size: 42px;
     font-weight: 900;
     text-transform: capitalize;
+    padding: 5px 0;
 }
 
 .portfolio-descrip {
@@ -240,9 +244,10 @@ main {
 
 /* Newsletter Section */
 .newsletter-section {
+    /* border: 2px solid crimson; */
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
-    margin-top: 50px;
+    margin-top: 60px;
     padding-top: 30px;
     display: flex;
     flex-direction: column;
@@ -256,6 +261,7 @@ main {
     font-size: 45px;
     font-weight: 900;
     text-transform: capitalize;
+    padding: 5px 0;
 }
 
 .newsletter-descrip {
@@ -279,7 +285,42 @@ input {
     color: rgba(7, 2, 17, 0.3);
 }
 
-.subscribe{
+.subscribe {
     border-radius: 0 50px 50px 0;
     text-transform: capitalize;
+}
+
+/* Footer Section */
+footer {
+    background: #070211;
+    /* height: 600px; */
+}
+
+.mailing-address,
+.copyright {
+    color: #FFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(141, 137, 137, 0.75), rgba(255, 0, 0, 0));
+    padding: 0 200px;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media img {
+    padding: 7px 5px;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: #FFF;
 }
